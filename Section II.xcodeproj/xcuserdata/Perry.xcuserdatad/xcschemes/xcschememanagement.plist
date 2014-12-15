@@ -59,6 +59,11 @@
 			<key>orderHint</key>
 			<integer>6</integer>
 		</dict>
+		<key>Prog_5.1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>Rectangle.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -118,6 +123,11 @@
 			<true/>
 		</dict>
 		<key>C24AABC71A3D63550085B492</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C24AABD21A3F38500085B492</key>
 		<dict>
 			<key>primary</key>
 			<true/>
