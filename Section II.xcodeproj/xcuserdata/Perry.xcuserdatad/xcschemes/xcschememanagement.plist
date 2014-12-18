@@ -9,6 +9,26 @@
 			<key>orderHint</key>
 			<integer>7</integer>
 		</dict>
+		<key>Ex5.4.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>21</integer>
+		</dict>
+		<key>Ex_5.1.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>18</integer>
+		</dict>
+		<key>Ex_5.2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>19</integer>
+		</dict>
+		<key>Ex_5.3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>20</integer>
+		</dict>
 		<key>Prog_1.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -63,6 +83,46 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>9</integer>
+		</dict>
+		<key>Prog_5.2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>Prog_5.3.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>11</integer>
+		</dict>
+		<key>Prog_5.4.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>12</integer>
+		</dict>
+		<key>Prog_5.5.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>13</integer>
+		</dict>
+		<key>Prog_5.6.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>14</integer>
+		</dict>
+		<key>Prog_5.7.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>15</integer>
+		</dict>
+		<key>Prog_5.8.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>16</integer>
+		</dict>
+		<key>Prog_5.9.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>17</integer>
 		</dict>
 		<key>Rectangle.xcscheme</key>
 		<dict>
@@ -128,6 +188,66 @@
 			<true/>
 		</dict>
 		<key>C24AABD21A3F38500085B492</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C24AABDD1A3F3AF00085B492</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C24AABE81A3F427C0085B492</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C24AABF31A3F48BF0085B492</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C24AABFE1A40DFB20085B492</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C24AAC091A4125540085B492</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C24AAC141A4227960085B492</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C24AAC1F1A422A170085B492</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C24AAC2A1A4249660085B492</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C24AAC351A424AFB0085B492</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C24AAC401A4262D60085B492</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C24AAC4B1A4276CA0085B492</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C24AAC561A427F920085B492</key>
 		<dict>
 			<key>primary</key>
 			<true/>
