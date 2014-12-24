@@ -29,7 +29,7 @@
 
 - (void)print
 {
-    NSLog(@"    %i/%i", numerator, denominator);
+    NSLog(@"%i/%i", numerator, denominator);
 }
 
 - (void)setNumerator:(int)n
@@ -47,7 +47,7 @@
     return numerator;
 }
 
--(int)denominator
+- (int)denominator
 {
     return denominator;
 }
@@ -59,8 +59,9 @@
     } else
         return NAN;
 }
-
 @end
+
+//---- main method ----
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
