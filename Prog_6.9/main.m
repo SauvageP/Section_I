@@ -93,7 +93,7 @@ int main(int argc, const char * argv[]) {
                 [deskCalc subtract:value2];
                 break;
             case '*':
-            case 'x':
+            case 'x':   // incase someone uses a 'x' instead of '*'
                 [deskCalc multiply:value2];
                 break;
             case '/':

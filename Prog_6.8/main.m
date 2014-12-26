@@ -12,7 +12,7 @@
 #import <Foundation/Foundation.h>
 
 //---- @interface section ----
-@interface Calcuator : NSObject
+@interface Calculator : NSObject
 
 //  accumlator methods
 -(void)     clear;
@@ -28,7 +28,7 @@
 @end
 
 //---- @implementation section ----
-@implementation Calcuator
+@implementation Calculator
 {
     double accumulator;
 }
@@ -78,7 +78,7 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         double          value1, value2;
         char            operator;
-        Calcuator       *deskCalc = [Calcuator new];
+        Calculator       *deskCalc = [Calculator new];
         
         NSLog(@"Type in your expression.");
         scanf("%lf %c %lf", &value1, &operator, &value2);
@@ -86,16 +86,19 @@ int main(int argc, const char * argv[]) {
         [deskCalc setAccumulator:value1];
         if (operator == '+') {
             [deskCalc add:value2];
+            NSLog(@"%.2f", [deskCalc accumulator]);
         } else if (operator == '-') {
             [deskCalc subtract:value2];
+            NSLog(@"%.2f", [deskCalc accumulator]);
         } else if (operator == '*') {
             [deskCalc multiply:value2];
+            NSLog(@"%.2f", [deskCalc accumulator]);
         } else if (operator == '/') {
             [deskCalc divide:value2];
+            NSLog(@"%.2f", [deskCalc accumulator]);
         } else
             NSLog(@"Unknown operator.");
         
-        NSLog(@"%.2f", [deskCalc accumulator]);
     }
     return 0;
 }

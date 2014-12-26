@@ -29,6 +29,9 @@
 
 - (void)print
 {
+    if (denominator == 1) {
+        NSLog(@"%i", numerator);
+    }
     NSLog(@"%i/%i", numerator, denominator);
 }
 
