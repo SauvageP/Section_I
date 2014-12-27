@@ -18,10 +18,12 @@ int main(int argc, const char * argv[]) {
         scanf("%i", &number);
         
         triangularNumber = 0;
-        
-        for (n = 1; n <= number; ++n)
+        n = 1;
+        while (n <= number)
+        {
             triangularNumber += n;
-        
+            ++n;
+        }
         NSLog(@"Triangular number %i is %i\n", number, triangularNumber);
     }
     return 0;

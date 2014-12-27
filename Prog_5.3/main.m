@@ -18,9 +18,11 @@ int main(int argc, const char * argv[]) {
         NSLog(@"--  ---------------");
         
         triangularNumber = 0;
-        for (n = 1; n <= 10; ++n) {
+        n = 1;
+        while (n <= 10) {
             triangularNumber += n;
             NSLog(@"%2i          %2i", n, triangularNumber);
+            ++n;
         }
     }
     return 0;
